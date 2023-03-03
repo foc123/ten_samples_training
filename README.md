@@ -1,6 +1,7 @@
 # ten_samples_training
 run ray_demo.py then the agent will train ten samples
-agent hypeparameter：trajectory length = 20,total timesteps = 600k, neural network = CNN, num_val_specs (generated inferences number,usually 100),lr= 1e-4 ,drop_out =0.2;
+
+agent hypeparameter：trajectory length = 20(one episode include how many actions) ,total timesteps = 600k, neural network = CNN, num_val_specs (generated inferences number,usually 100),lr= 1e-4 ,drop_out =0.2;
 
 cost comparision of RL and SA are below: ten training cases and five deployment cases(in result_fig)
 ![case1](https://user-images.githubusercontent.com/89006608/222651868-e6fbfed3-331b-48a2-9777-602c816431ca.png)
